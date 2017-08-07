@@ -45,6 +45,7 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/LevelManager.cs'
+'Assets/Scripts/LoseCollider.cs'
 'Assets/Scripts/MusicPlayer.cs'
 -r:'/Applications/Unity 4/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity 4/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
