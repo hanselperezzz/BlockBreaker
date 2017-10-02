@@ -52,12 +52,6 @@ public class Brick : MonoBehaviour {
 			this.GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
 		}
 	}
-	
 
-	// TODO Remove thsi method once we can win.
-	void SimulateWin() {
-		levelManager.LoadNextLevel();
-
-	}
 }
 	

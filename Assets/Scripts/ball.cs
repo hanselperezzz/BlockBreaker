@@ -12,6 +12,7 @@ public class Ball : MonoBehaviour {
 		paddle = GameObject.FindObjectOfType<Paddle>();
 		paddleToBallVector = this.transform.position - paddle.transform.position;
 		print(paddleToBallVector.y);
+		AudioClip.play();
 	}
 	
 	// Update is called once per frame
